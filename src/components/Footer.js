@@ -6,10 +6,11 @@ const Footer = () =>  {
   return (
     <footer className="footer section">
         <div className="footer-top">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="inner-content">
                     <div className="row">
-                        <div className="col-lg-6 col-md-6 col-12">
+
+                        <div className="col-lg-9 col-md-6 col-12">
                             <div className="single-footer f-about">
                                 <div className="logo">
                                     <Link to="/">
@@ -21,7 +22,7 @@ const Footer = () =>  {
                         </div>
 
 
-                        <div className="col-lg-6 col-md-6 col-12">
+                        <div className="col-lg-3 col-md-6 col-12">
                            
                             <div className="single-footer f-about">
                                 <ul className="social" style={{justifyContent:"space-between",display:'flex'}}>
@@ -38,7 +39,7 @@ const Footer = () =>  {
             </div>
         </div>
         <div className="copyright-area">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="inner-content">
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-12">

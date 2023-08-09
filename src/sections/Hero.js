@@ -32,7 +32,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div class="bottom__line"></div>
+        <div class="dark-line-bottom"></div>
+
       </div>
     </section>
   );
